@@ -1,0 +1,49 @@
+ .mobile-menu {
+            position: fixed; /* Έτσι καλύπτει όλη την οθόνη */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%; /* Καλύπτει όλο το ύψος */
+            background-color: rgba(0, 0, 0, 0.95); /* Ελαφρώς διαφανές μαύρο */
+            padding: 1.5rem 1rem; /* Εσωτερικό περιθώριο */
+            z-index: 50; /* Να είναι πάνω από όλα τα άλλα στοιχεία */
+            overflow-y: auto; /* Αν το περιεχόμενο είναι πολύ μεγάλο */
+        }
+        .mobile-menu-close-btn {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 2.5rem; /* Μεγαλύτερο X */
+            color: white;
+            cursor: pointer;
+            z-index: 60;
+        }
+        .fa-square-facebook{
+         background: rgba(0, 0, 255, 0);
+          color: rgb(0, 0, 0);
+        }
+        .proradio-caption{
+            background: #1c9ded;
+            border-radius: 0px 0px 30px;
+            padding: 10px;
+             color: aliceblue;
+             position: relative;
+        }
+        .proradio-caption::before{
+            z-index: 2;
+            border: 2px dotted;
+            content: '';
+            width: calc(100% - 0.3em);
+         margin: -5px auto 0 auto;
+         display: block;
+         max-width: 100%;
+         bottom: 0;
+        }
+        .proradio-caption::after{
+            border-color:#ed1c24;
+            border-style: double;
+            height: 0.7em;
+            border-width: 2px 0;
+            top: 53%;
+}
+    
