@@ -130,3 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 });
+
+ function pasue() {
+  console.log("Τα τραγουδια τέθηκαν σε πάυση. Θα  είμαστε μαζί σας σύντομα!");
+}
