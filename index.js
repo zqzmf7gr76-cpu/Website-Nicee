@@ -131,6 +131,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
- function pasue() {
+ function pause() {
   alert("Τα τραγουδια τέθηκαν σε πάυση. Θα  είμαστε μαζί σας σύντομα!");
 }
